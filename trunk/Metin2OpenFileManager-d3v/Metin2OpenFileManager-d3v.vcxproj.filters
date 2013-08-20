@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{4195ef62-f73c-4dbd-97f9-5345c4f64df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compression">
+      <UniqueIdentifier>{17a3e00a-6f3c-4a2d-a665-224a3b729c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption\Hashing">
+      <UniqueIdentifier>{d1aff42f-a791-41b6-8886-164ecb039f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XTEA.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="LZO.cpp">
+      <Filter>Compression</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC4.cpp">
+      <Filter>Encryption\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="LogHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Standards.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="XTEA.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="LZO.h">
+      <Filter>Compression</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC4.h">
+      <Filter>Encryption\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="LogHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

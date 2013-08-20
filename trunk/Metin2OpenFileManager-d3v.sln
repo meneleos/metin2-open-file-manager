@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Metin2OpenFileManager-d3v", "Metin2OpenFileManager-d3v\Metin2OpenFileManager-d3v.vcxproj", "{71CC64B2-5856-40F6-AF93-2B63246EB4B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71CC64B2-5856-40F6-AF93-2B63246EB4B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71CC64B2-5856-40F6-AF93-2B63246EB4B2}.Debug|Win32.Build.0 = Debug|Win32
+		{71CC64B2-5856-40F6-AF93-2B63246EB4B2}.Release|Win32.ActiveCfg = Release|Win32
+		{71CC64B2-5856-40F6-AF93-2B63246EB4B2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
